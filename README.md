@@ -175,7 +175,7 @@ Each configuration was run once with seed 42.
 
 The annotation layer, guidelines, predefined splits, and training-ready files are available **from the corresponding author on reasonable request, for non-commercial research use**. See **[DATA_REQUEST.md](DATA_REQUEST.md)** for the request template.
 
-Contact: **mohammadreza.jafari@shiftiai.com**
+Contact: **mojtabamoradi2013@gmail.com**
 
 
 ## License
