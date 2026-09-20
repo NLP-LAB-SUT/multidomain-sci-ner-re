@@ -177,16 +177,6 @@ The annotation layer, guidelines, predefined splits, and training-ready files ar
 
 Contact: **mohammadreza.jafari@shiftiai.com**
 
-## Citation
-
-```bibtex
-@article{jafari2026multidomain,
-  title   = {A Multi-Domain Corpus for Entity and Relation Extraction from Scientific Articles},
-  author  = {Jafari, Mohammadreza},
-  year    = {2026},
-  note    = {Under review}
-}
-```
 
 ## License
 
