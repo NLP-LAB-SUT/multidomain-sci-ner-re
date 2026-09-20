@@ -11,7 +11,7 @@ The underlying article text remains subject to the licenses of the original publ
 
 ## How to request
 
-Send an e-mail to **mohammadreza.jafari@shiftiai.com** with the subject line:
+Send an e-mail to **mojtabamoradi2013@gmail.com** with the subject line:
 
 ```
 [Corpus Request] Multi-Domain Scientific NER+RE Corpus
