@@ -1,0 +1,45 @@
+{
+  "name": "Multi-Domain Scientific NER+RE schema",
+  "version": "1.0",
+  "entity_types": [
+    {"label": "Subject", "definition": "A problem, challenge, or field that is the focus of study or problem-solving."},
+    {"label": "Theory", "definition": "Principles or theories that describe, explain, or predict particular phenomena."},
+    {"label": "Criteria", "definition": "Standards or indicators used to evaluate and judge quality."},
+    {"label": "Policy", "definition": "Principles, rules, or guidelines that direct decisions and actions."},
+    {"label": "Material", "definition": "A physical or chemical substance or compound with defined properties, used in processes or in producing products."},
+    {"label": "Physical_Tools", "definition": "Tools and systems of a material nature used to carry out specialized activities."},
+    {"label": "Non_Physical_Tools", "definition": "Non-material tools and systems (e.g., software) used to carry out specialized activities."},
+    {"label": "Data", "definition": "Datasets defined for a specific task."},
+    {"label": "Process", "definition": "A structured sequence of steps aimed at achieving a specific goal or producing a particular output."},
+    {"label": "Method", "definition": "A systematic approach or technique for analysis, problem-solving, or achieving a goal."},
+    {"label": "Parameter", "definition": "A property, value, or variable that defines or controls the behavior of a system, model, or process."}
+  ],
+  "relation_types": [
+    {"label": "PART_OF", "directed": true, "definition": "One entity is a part of another (a part-whole structure)."},
+    {"label": "CREATES", "directed": true, "definition": "One entity builds or produces another entity."},
+    {"label": "STUDIES", "directed": true, "definition": "One entity examines, analyzes, or studies another entity."},
+    {"label": "CAUSES", "directed": true, "definition": "One entity is explicitly the cause of another entity or phenomenon."},
+    {"label": "RELATED_TO", "directed": true, "definition": "A clear semantic relation between two entities that fits none of the other four types (residual type)."}
+  ],
+  "negative_label": "no_relation",
+  "bio_labels": 23,
+  "domains": {
+    "advance_material": "Advanced Materials & Construction",
+    "aerospace": "Aerospace",
+    "ai": "Artificial Intelligence (and Blockchain)",
+    "chemestry": "Chemistry (and Nanomaterials)",
+    "climate": "Climate & Environment",
+    "electronic": "Electronics",
+    "energy": "Energy",
+    "genetic": "Genetics (Biotechnology and Genetics)",
+    "laser": "Laser & Photonics",
+    "physics": "Physics",
+    "robatics": "Robotics (and Autonomous Systems)"
+  },
+  "cross_domain_categories": {
+    "Science": ["physics", "chemestry", "laser", "advance_material"],
+    "Engineering": ["energy", "aerospace"],
+    "Intelligent & Autonomous Systems": ["ai", "electronic", "robatics"],
+    "Life & Earth Sciences": ["genetic", "climate"]
+  }
+}

@@ -1,0 +1,27 @@
+<!--
+  Label Studio labeling interface for the 11 entity types and 5 directed relation types.
+  Tag names (from_name="label", to_name="text") match those used in the original annotation project.
+-->
+<View>
+  <Relations>
+    <Relation value="PART_OF"/>
+    <Relation value="CREATES"/>
+    <Relation value="STUDIES"/>
+    <Relation value="CAUSES"/>
+    <Relation value="RELATED_TO"/>
+  </Relations>
+  <Labels name="label" toName="text">
+    <Label value="Subject"/>
+    <Label value="Theory"/>
+    <Label value="Criteria"/>
+    <Label value="Policy"/>
+    <Label value="Material"/>
+    <Label value="Physical_Tools"/>
+    <Label value="Non_Physical_Tools"/>
+    <Label value="Data"/>
+    <Label value="Process"/>
+    <Label value="Method"/>
+    <Label value="Parameter"/>
+  </Labels>
+  <Text name="text" value="$text"/>
+</View>

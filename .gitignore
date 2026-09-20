@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# outputs and checkpoints
+results/
+runs/
+*.pt
+*.bin
+*.safetensors
+wandb/
+
+# full data (available on request) - only data/sample/ is tracked
+data/*
+!data/sample/

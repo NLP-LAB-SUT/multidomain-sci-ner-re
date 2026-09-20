@@ -1,0 +1,22 @@
+# Core (tested with Python 3.10, CUDA GPU)
+torch>=2.1
+transformers>=4.40
+accelerate>=0.27
+sentencepiece          # DeBERTa-v3 tokenizer
+protobuf
+datasets
+evaluate
+seqeval
+scikit-learn
+numpy
+pandas
+tqdm
+matplotlib
+seaborn
+
+# NER CRF layer
+pytorch-crf            # imported as `torchcrf`
+
+# LLM token-classification fine-tuning
+peft
+bitsandbytes           # paged 8-bit AdamW (full fine-tuning)

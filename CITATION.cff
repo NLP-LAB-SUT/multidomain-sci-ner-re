@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this corpus or code, please cite the paper."
+title: "A Multi-Domain Corpus for Entity and Relation Extraction from Scientific Articles"
+authors:
+  - family-names: Jafari
+    given-names: Mohammadreza
+    email: mohammadreza.jafari@shiftiai.com
+type: software
+license: MIT
+keywords:
+  - named entity recognition
+  - relation extraction
+  - scientific text mining
+  - multi-domain dataset
+  - hybrid human–LLM annotation
